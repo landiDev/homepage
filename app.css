@@ -10,11 +10,11 @@
 
 :root {
   /* Font Size */
-  --fg-primary: 12vh; /* Time and Greetings */
-  --fg-secondary: 3vh; /* Greetings and Weather widger */
-  --fg-date: 8vh; /* Date */
-  --fg-list: 2vh; /* Links List */
-  --icon: 3vh; /* Icon Size */
+  --fg-primary: 12dvh; /* Time and Greetings */
+  --fg-secondary: 3dvh; /* Greetings and Weather widger */
+  --fg-date: 8dvh; /* Date */
+  --fg-list: 2dvh; /* Links List */
+  --icon: 3dvh; /* Icon Size */
 
   /* Fonts Color */
   --fg: #3a3a3a; /* Foreground color */
@@ -61,8 +61,8 @@
 }
 
 body {
-  width: 100vw;
-  height: 100vh;
+  width: 100dvw;
+  height: 100dvh;
   background-color: var(--background);
   display: flex;
   align-items: center;
@@ -98,8 +98,8 @@ body {
 }
 
 .container {
-  width: 145vh;
-  height: 85vh;
+  width: 145dvh;
+  height: 85dvh;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 1fr);
@@ -304,8 +304,8 @@ body {
   grid-row: 1 / span 2;
 }
 .listIcon {
-  /* margin-top: 3vh; */
-  margin-bottom: 2vh;
+  /* margin-top: 3dvh; */
+  margin-bottom: 2dvh;
   color: var(--fg);
   width: var(--icon);
   height: var(--icon);
@@ -314,7 +314,7 @@ body {
   text-decoration: none;
   font-size: var(--fg-list);
   color: var(--fg);
-  margin-top: 1vh;
+  margin-top: 1dvh;
   padding: 8px 12px;
   border-radius: 5px;
   font-weight: bold;
@@ -356,7 +356,7 @@ body {
   }
 
   .button {
-    grid-gap: 3vw;
+    grid-gap: 3dvw;
     padding-left: 100px;
     padding-right: 100px;
   }
