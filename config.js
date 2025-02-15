@@ -17,9 +17,9 @@ const CONFIG = {
 	twelveHourFormat: false,
 
 	// Greetings
-	greetingMorning: 'Guten Morgen!',
+	greetingMorning: 'Guten Morgen,',
 	greetingAfternoon: 'Guten Tag,',
-	greetingEvening: 'Guten Abend!,',
+	greetingEvening: 'Guten Abend,',
 	greetingNight: 'Zeit zum Schlafen,',
 
 	// Layout
@@ -65,21 +65,21 @@ const CONFIG = {
 		},
 		{
 			id: '3',
-			name: 'Mail',
-			icon: 'mail',
-			link: 'https://mail.google.com/',
-		},
-		{
-			id: '4',
 			name: 'ChatGPT',
 			icon: 'bot',
 			link: 'https://www.chatgpt.com/',
 		},
 		{
-			id: '5',
+			id: '4',
 			name: 'Stack Overflow',
 			icon: 'library-big',
 			link: 'https://www.stackoverflow.com/',
+		},
+		{
+			id: '5',
+			name: 'Mail',
+			icon: 'mail',
+			link: 'https://mail.google.com/',
 		},
 		{
 			id: '6',
@@ -99,30 +99,8 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'school',
+			icon: 'earth',
 			id: '1',
-			links: [
-				{
-					name: 'Teams',
-					link: 'https://teams.microsoft.com/',
-				},
-				{
-					name: 'Untis',
-					link: 'https://borys.webuntis.com/timetable/my-student',
-				},
-				{
-					name: 'Drive',
-					link: 'https://drive.google.com/',
-				},
-				{
-					name: 'Canva',
-					link: 'https://www.canva.com/',
-				},
-			],
-		},
-		{
-			icon: 'globe',
-			id: '2',
 			links: [
 				{
 					name: 'Amazon',
@@ -139,6 +117,28 @@ const CONFIG = {
 				{
 					name: 'Kleinanzeigen',
 					link: 'https://www.kleinanzeigen.de',
+				},
+			],
+		},
+		{
+			icon: 'school',
+			id: '2',
+			links: [
+				{
+					name: 'Teams',
+					link: 'https://teams.microsoft.com/',
+				},
+				{
+					name: 'Untis',
+					link: 'https://borys.webuntis.com/timetable/my-student',
+				},
+				{
+					name: 'Drive',
+					link: 'https://drive.google.com/',
+				},
+				{
+					name: 'Canva',
+					link: 'https://www.canva.com/',
 				},
 			],
 		},
