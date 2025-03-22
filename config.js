@@ -104,7 +104,7 @@ const CONFIG = {
 			links: [
 				{
 					name: 'Amazon',
-					link: 'https://www.amazon.com',
+					link: 'https://www.amazon.de',
 				},
 				{
 					name: 'Netflix',
